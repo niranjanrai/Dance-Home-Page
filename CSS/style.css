@@ -18,6 +18,7 @@ body{
   background-color: #F5F2F0;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 
@@ -57,6 +58,7 @@ body{
 .nav-container{
     display: flex;
     justify-content: flex-end;
+    position: relative;
     /* margin-bottom: 5rem; */
 }
 .nav-items{
@@ -115,7 +117,7 @@ body{
     align-items: flex-start;
     gap: 3rem;
     position: absolute;
-    bottom: 42%;
+    bottom: 44%;
     left: 62%;
 
     
@@ -141,16 +143,93 @@ body{
  }
 
 
+/* Social */
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: absolute;
+    top: 4.7rem;
+    right: 6.2rem;
+}
+.social img{
+width: 2.2rem;
+height: 2.2rem;
+}
 
+.feature{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.feature p{
+    font-size: 1.6rem;
+    color: #8b8b8a;
+}
+.feature .p-active{
+    color: #000
+}
+.feature span{
+    /* font-size: 5rem; */
+}
+.feature .first{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #333333;
+    border-radius: 100%;
+}
+.feature img{
+    width: 1rem;
+    height: 1rem;
+    background-color: #666;
+    border: transparent;
+    border-radius: 100%;
+}
+.feature div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
 
+.main-parent{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 5rem;
+}
 
+.pic{
+    /* display: flex; */
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.pic .pic-icon{
+width: 10rem;
+height: 5rem;
+margin-bottom: 1rem;
+}
+.pic p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+}
+.pic .pic-img{
+    margin-left: 2.5rem;
+    width: 40rem;
+    height: 18rem;
+}
 
-
-
-
-
-
-
+.arrow{
+    /* margin-top: 15rem; */
+}
+.arrow img{
+    margin-top: 10rem;
+    width: 15rem;
+    height: 25rem;
+}
 
 
 
