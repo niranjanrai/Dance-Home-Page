@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -11,25 +15,24 @@ html{
     font-size: 62.5%;
 }
 body{
-  
+  background-color: #F5F2F0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-p{
-    font-size: 20rem;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
 
 .main-container{
     width: 100vw;
     height: 100vh;
     display: grid;
   grid-template-columns: 35fr 65fr;
+  /* column-gap: 4rem; */
 }
 .left-side{
     width: 100%;
     height: 100%;
     position: relative;
+    display: block;
 }
 .left-side .left-img{
     width: 100%;
@@ -43,3 +46,122 @@ p{
 }
 
 /* Right Side */
+.right-side{
+    margin-top: 4rem;
+    position: relative;
+}
+.container{
+    max-width: 77rem;
+    margin: 0 auto;
+}
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-bottom: 5rem; */
+}
+.nav-items{
+    display: flex;
+    gap: 6rem;
+}
+
+.nav-item{
+    font-size: 1.4rem;
+    color: #a3a1a0;
+}
+.active{
+    color:#2c2c2c;
+    
+}
+
+
+
+/* Center  text*/
+.center-text{
+    margin-top: 4rem;
+}
+.center-text .text-outline{
+    font-size: 12rem;
+    color: #F5F2F0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+.center-text .outline{
+    font-size: 12rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    margin-left: 17rem;
+    line-height: 1;
+    position: relative;
+}
+
+ hr{
+    display: inline-block ;
+    width: 39rem;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    top: 1rem;
+    left: 1.1rem;
+ }
+
+ .btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3rem;
+    position: absolute;
+    bottom: 42%;
+    left: 62%;
+
+    
+ }
+
+ .btn-container p{
+    font-size: 2.8rem;
+    color: #8b8b8a;
+    line-height: 1.2;
+
+ }
+ .btn-container button{
+    width: 29rem;
+    height: 6rem;
+    background-color: #4b4a4a;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: transparent;
+    font-family: "poppins";
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
