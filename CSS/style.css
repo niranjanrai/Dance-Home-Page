@@ -221,6 +221,9 @@ margin-bottom: 1rem;
     width: 40rem;
     height: 18rem;
 }
+.pic .pic-icon{
+    color: #2c2c2c;
+}
 
 .arrow{
     /* margin-top: 15rem; */
