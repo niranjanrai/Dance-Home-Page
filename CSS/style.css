@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+  
+}
+
+p{
+    font-size: 20rem;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+  grid-template-columns: 35fr 65fr;
+}
+.left-side{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.left-side .left-img{
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    position: absolute;
+    width: 10rem;
+    top: 5rem;
+    left: 5rem;
+}
+
+/* Right Side */
